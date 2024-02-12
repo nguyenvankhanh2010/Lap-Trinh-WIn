@@ -134,5 +134,17 @@
   <ItemGroup>
     <None Include="Resources\buyer-product-chairs.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buyer-product-toys.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buyer-product-guitar1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buyer-product-keyboard1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buyer-product-piano1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
