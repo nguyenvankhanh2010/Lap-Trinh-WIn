@@ -1,0 +1,33 @@
+C:\Users\NGUYEN VAN KHANH\source\repos\Do an LTWin\Do an LTWin\bin\Debug\Do an LTWin.exe.config
+C:\Users\NGUYEN VAN KHANH\source\repos\Do an LTWin\Do an LTWin\bin\Debug\Do an LTWin.exe
+C:\Users\NGUYEN VAN KHANH\source\repos\Do an LTWin\Do an LTWin\bin\Debug\Do an LTWin.pdb
+C:\Users\NGUYEN VAN KHANH\source\repos\Do an LTWin\Do an LTWin\obj\Debug\Do an LTWin.csproj.AssemblyReference.cache
+C:\Users\NGUYEN VAN KHANH\source\repos\Do an LTWin\Do an LTWin\obj\Debug\Do_an_LTWin.Form1.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Do an LTWin\Do an LTWin\obj\Debug\Do_an_LTWin.Properties.Resources.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Do an LTWin\Do an LTWin\obj\Debug\Do an LTWin.csproj.GenerateResource.cache
+C:\Users\NGUYEN VAN KHANH\source\repos\Do an LTWin\Do an LTWin\obj\Debug\Do an LTWin.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN VAN KHANH\source\repos\Do an LTWin\Do an LTWin\obj\Debug\Do an LTWin.exe
+C:\Users\NGUYEN VAN KHANH\source\repos\Do an LTWin\Do an LTWin\obj\Debug\Do an LTWin.pdb
+C:\Users\NGUYEN VAN KHANH\source\repos\Do an LTWin\Do an LTWin\obj\Debug\Do_an_LTWin.Form2.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\Do an LTWin\bin\Debug\Do an LTWin.exe.config
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\Do an LTWin\bin\Debug\Do an LTWin.exe
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\Do an LTWin\bin\Debug\Do an LTWin.pdb
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\Do an LTWin\obj\Debug\Do an LTWin.csproj.AssemblyReference.cache
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\Do an LTWin\obj\Debug\Do_an_LTWin.Form1.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\Do an LTWin\obj\Debug\Do_an_LTWin.Form2.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\Do an LTWin\obj\Debug\Do_an_LTWin.Properties.Resources.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\Do an LTWin\obj\Debug\Do an LTWin.csproj.GenerateResource.cache
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\Do an LTWin\obj\Debug\Do an LTWin.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\Do an LTWin\obj\Debug\Do an LTWin.exe
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\Do an LTWin\obj\Debug\Do an LTWin.pdb
+C:\Users\thanh\OneDrive\Desktop\Learn_LTWin\LTWinW1\DoAnLapTrinhWin\Do an LTWin\bin\Debug\Do an LTWin.exe.config
+C:\Users\thanh\OneDrive\Desktop\Learn_LTWin\LTWinW1\DoAnLapTrinhWin\Do an LTWin\bin\Debug\Do an LTWin.exe
+C:\Users\thanh\OneDrive\Desktop\Learn_LTWin\LTWinW1\DoAnLapTrinhWin\Do an LTWin\bin\Debug\Do an LTWin.pdb
+C:\Users\thanh\OneDrive\Desktop\Learn_LTWin\LTWinW1\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.csproj.AssemblyReference.cache
+C:\Users\thanh\OneDrive\Desktop\Learn_LTWin\LTWinW1\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.FLogin.resources
+C:\Users\thanh\OneDrive\Desktop\Learn_LTWin\LTWinW1\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.Properties.Resources.resources
+C:\Users\thanh\OneDrive\Desktop\Learn_LTWin\LTWinW1\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.csproj.GenerateResource.cache
+C:\Users\thanh\OneDrive\Desktop\Learn_LTWin\LTWinW1\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.csproj.CoreCompileInputs.cache
+C:\Users\thanh\OneDrive\Desktop\Learn_LTWin\LTWinW1\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.exe
+C:\Users\thanh\OneDrive\Desktop\Learn_LTWin\LTWinW1\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.pdb
+C:\Users\thanh\OneDrive\Desktop\Learn_LTWin\LTWinW1\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.FHome.resources
