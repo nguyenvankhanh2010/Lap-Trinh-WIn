@@ -17,10 +17,6 @@ namespace Do_an_LTWin
             InitializeComponent();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Đóng messagebox nè");
-        }
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
@@ -28,6 +24,31 @@ namespace Do_an_LTWin
             FLogin fLogin = new FLogin();
             fLogin.ShowDialog();
             this.Close();
+        }
+
+        private void btnSellerPage_Click(object sender, EventArgs e)
+        {
+            FSeller fSeller = new FSeller();
+            this.Hide();
+            fSeller.ShowDialog();
+            this.Show();
+        }
+
+        private void btnAccount_Click(object sender, EventArgs e)
+        {
+            FAccount fAccount = new FAccount();
+            this.Hide();
+            fAccount.ShowDialog();
+            this.Show();
+        }
+
+        private void btnCart_Click(object sender, EventArgs e)
+        {
+            FCart fCart = new FCart();
+            this.Hide();
+            fCart.ShowDialog();
+            this.Show();
+
         }
     }
 }

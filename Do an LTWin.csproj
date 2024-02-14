@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAccount.Designer.cs">
+      <DependentUpon>FAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FCart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCart.Designer.cs">
+      <DependentUpon>FCart.cs</DependentUpon>
+    </Compile>
     <Compile Include="FLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +70,28 @@
     <Compile Include="FHome.Designer.cs">
       <DependentUpon>FHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="FSeller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSeller.Designer.cs">
+      <DependentUpon>FSeller.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FAccount.resx">
+      <DependentUpon>FAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCart.resx">
+      <DependentUpon>FCart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FLogin.resx">
       <DependentUpon>FLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FHome.resx">
       <DependentUpon>FHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSeller.resx">
+      <DependentUpon>FSeller.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
