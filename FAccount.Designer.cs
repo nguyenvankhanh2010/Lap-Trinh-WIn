@@ -35,6 +35,10 @@
             this.btnChangePassword = new System.Windows.Forms.Button();
             this.btnUpdateInfoUser = new System.Windows.Forms.Button();
             this.pnlUserInfor = new System.Windows.Forms.Panel();
+            this.rbDiff = new System.Windows.Forms.RadioButton();
+            this.rbFemale = new System.Windows.Forms.RadioButton();
+            this.rbMale = new System.Windows.Forms.RadioButton();
+            this.lblSex = new System.Windows.Forms.Label();
             this.dtpDOB = new System.Windows.Forms.DateTimePicker();
             this.tbAddress = new System.Windows.Forms.TextBox();
             this.tbEmail = new System.Windows.Forms.TextBox();
@@ -52,8 +56,11 @@
             this.btnHistoryView = new System.Windows.Forms.Button();
             this.lblHistoryTo = new System.Windows.Forms.Label();
             this.lblHistotyFrom = new System.Windows.Forms.Label();
+            this.dtpHistoryTo = new System.Windows.Forms.DateTimePicker();
             this.dtpHistoryFrom = new System.Windows.Forms.DateTimePicker();
             this.pnlHistoryListView = new System.Windows.Forms.Panel();
+            this.tbSumBought = new System.Windows.Forms.TextBox();
+            this.lblSumBought = new System.Windows.Forms.Label();
             this.dgvListHistoryBought = new System.Windows.Forms.DataGridView();
             this.tbpDoanhThu = new System.Windows.Forms.TabPage();
             this.pnlRevenueTiitle = new System.Windows.Forms.Panel();
@@ -70,13 +77,6 @@
             this.dgvListSoldProduct = new System.Windows.Forms.DataGridView();
             this.lblListSold = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.lblSumBought = new System.Windows.Forms.Label();
-            this.tbSumBought = new System.Windows.Forms.TextBox();
-            this.lblSex = new System.Windows.Forms.Label();
-            this.rbMale = new System.Windows.Forms.RadioButton();
-            this.rbFemale = new System.Windows.Forms.RadioButton();
-            this.rbDiff = new System.Windows.Forms.RadioButton();
-            this.dtpHistoryTo = new System.Windows.Forms.DateTimePicker();
             this.tbpInforAcc.SuspendLayout();
             this.pnlInforPageTittle.SuspendLayout();
             this.pnlSettingInforUser.SuspendLayout();
@@ -96,20 +96,20 @@
             // 
             // tbpInforAcc
             // 
-            this.tbpInforAcc.BackColor = System.Drawing.Color.OrangeRed;
+            this.tbpInforAcc.BackColor = System.Drawing.Color.Tomato;
             this.tbpInforAcc.Controls.Add(this.pnlInforPageTittle);
             this.tbpInforAcc.Controls.Add(this.pnlSettingInforUser);
             this.tbpInforAcc.Controls.Add(this.pnlUserInfor);
             this.tbpInforAcc.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.tbpInforAcc.Location = new System.Drawing.Point(4, 22);
             this.tbpInforAcc.Name = "tbpInforAcc";
-            this.tbpInforAcc.Size = new System.Drawing.Size(577, 520);
+            this.tbpInforAcc.Size = new System.Drawing.Size(565, 516);
             this.tbpInforAcc.TabIndex = 2;
             this.tbpInforAcc.Text = "Information";
             // 
             // pnlInforPageTittle
             // 
-            this.pnlInforPageTittle.BackColor = System.Drawing.Color.OrangeRed;
+            this.pnlInforPageTittle.BackColor = System.Drawing.Color.Tomato;
             this.pnlInforPageTittle.Controls.Add(this.lblTitlePageInfo);
             this.pnlInforPageTittle.ForeColor = System.Drawing.Color.OrangeRed;
             this.pnlInforPageTittle.Location = new System.Drawing.Point(-4, 0);
@@ -140,7 +140,7 @@
             // 
             // btnChangePassword
             // 
-            this.btnChangePassword.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnChangePassword.BackColor = System.Drawing.Color.Tomato;
             this.btnChangePassword.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnChangePassword.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnChangePassword.Location = new System.Drawing.Point(251, 15);
@@ -152,7 +152,7 @@
             // 
             // btnUpdateInfoUser
             // 
-            this.btnUpdateInfoUser.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnUpdateInfoUser.BackColor = System.Drawing.Color.Tomato;
             this.btnUpdateInfoUser.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnUpdateInfoUser.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnUpdateInfoUser.Location = new System.Drawing.Point(7, 15);
@@ -183,6 +183,52 @@
             this.pnlUserInfor.Name = "pnlUserInfor";
             this.pnlUserInfor.Size = new System.Drawing.Size(503, 288);
             this.pnlUserInfor.TabIndex = 3;
+            // 
+            // rbDiff
+            // 
+            this.rbDiff.AutoSize = true;
+            this.rbDiff.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.rbDiff.Location = new System.Drawing.Point(367, 196);
+            this.rbDiff.Name = "rbDiff";
+            this.rbDiff.Size = new System.Drawing.Size(68, 21);
+            this.rbDiff.TabIndex = 13;
+            this.rbDiff.TabStop = true;
+            this.rbDiff.Text = "Orther";
+            this.rbDiff.UseVisualStyleBackColor = true;
+            // 
+            // rbFemale
+            // 
+            this.rbFemale.AutoSize = true;
+            this.rbFemale.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.rbFemale.Location = new System.Drawing.Point(264, 196);
+            this.rbFemale.Name = "rbFemale";
+            this.rbFemale.Size = new System.Drawing.Size(75, 21);
+            this.rbFemale.TabIndex = 12;
+            this.rbFemale.TabStop = true;
+            this.rbFemale.Text = "Female";
+            this.rbFemale.UseVisualStyleBackColor = true;
+            // 
+            // rbMale
+            // 
+            this.rbMale.AutoSize = true;
+            this.rbMale.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.rbMale.Location = new System.Drawing.Point(182, 196);
+            this.rbMale.Name = "rbMale";
+            this.rbMale.Size = new System.Drawing.Size(56, 21);
+            this.rbMale.TabIndex = 11;
+            this.rbMale.TabStop = true;
+            this.rbMale.Text = "Male";
+            this.rbMale.UseVisualStyleBackColor = true;
+            // 
+            // lblSex
+            // 
+            this.lblSex.AutoSize = true;
+            this.lblSex.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblSex.Location = new System.Drawing.Point(143, 196);
+            this.lblSex.Name = "lblSex";
+            this.lblSex.Size = new System.Drawing.Size(33, 17);
+            this.lblSex.TabIndex = 10;
+            this.lblSex.Text = "Sex";
             // 
             // dtpDOB
             // 
@@ -289,13 +335,13 @@
             this.pLichSuMuaHangtb.Location = new System.Drawing.Point(4, 22);
             this.pLichSuMuaHangtb.Name = "pLichSuMuaHangtb";
             this.pLichSuMuaHangtb.Padding = new System.Windows.Forms.Padding(3);
-            this.pLichSuMuaHangtb.Size = new System.Drawing.Size(577, 520);
+            this.pLichSuMuaHangtb.Size = new System.Drawing.Size(565, 516);
             this.pLichSuMuaHangtb.TabIndex = 1;
             this.pLichSuMuaHangtb.Text = "History";
             // 
             // pnlHistoryTittle
             // 
-            this.pnlHistoryTittle.BackColor = System.Drawing.Color.OrangeRed;
+            this.pnlHistoryTittle.BackColor = System.Drawing.Color.Tomato;
             this.pnlHistoryTittle.Controls.Add(this.lblHistoryTittle);
             this.pnlHistoryTittle.Location = new System.Drawing.Point(3, 3);
             this.pnlHistoryTittle.Name = "pnlHistoryTittle";
@@ -321,14 +367,14 @@
             this.pnlHistorySetting.Controls.Add(this.lblHistotyFrom);
             this.pnlHistorySetting.Controls.Add(this.dtpHistoryTo);
             this.pnlHistorySetting.Controls.Add(this.dtpHistoryFrom);
-            this.pnlHistorySetting.Location = new System.Drawing.Point(3, 60);
+            this.pnlHistorySetting.Location = new System.Drawing.Point(0, 60);
             this.pnlHistorySetting.Name = "pnlHistorySetting";
             this.pnlHistorySetting.Size = new System.Drawing.Size(565, 36);
             this.pnlHistorySetting.TabIndex = 1;
             // 
             // btnHistoryView
             // 
-            this.btnHistoryView.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnHistoryView.BackColor = System.Drawing.Color.Tomato;
             this.btnHistoryView.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnHistoryView.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnHistoryView.Location = new System.Drawing.Point(442, 3);
@@ -358,6 +404,14 @@
             this.lblHistotyFrom.TabIndex = 2;
             this.lblHistotyFrom.Text = "From";
             // 
+            // dtpHistoryTo
+            // 
+            this.dtpHistoryTo.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.dtpHistoryTo.Location = new System.Drawing.Point(252, 7);
+            this.dtpHistoryTo.Name = "dtpHistoryTo";
+            this.dtpHistoryTo.Size = new System.Drawing.Size(184, 20);
+            this.dtpHistoryTo.TabIndex = 1;
+            // 
             // dtpHistoryFrom
             // 
             this.dtpHistoryFrom.CalendarMonthBackground = System.Drawing.SystemColors.ButtonFace;
@@ -369,14 +423,31 @@
             // 
             // pnlHistoryListView
             // 
-            this.pnlHistoryListView.BackColor = System.Drawing.Color.OrangeRed;
+            this.pnlHistoryListView.BackColor = System.Drawing.Color.Tomato;
             this.pnlHistoryListView.Controls.Add(this.tbSumBought);
             this.pnlHistoryListView.Controls.Add(this.lblSumBought);
             this.pnlHistoryListView.Controls.Add(this.dgvListHistoryBought);
             this.pnlHistoryListView.Location = new System.Drawing.Point(3, 102);
             this.pnlHistoryListView.Name = "pnlHistoryListView";
-            this.pnlHistoryListView.Size = new System.Drawing.Size(568, 412);
+            this.pnlHistoryListView.Size = new System.Drawing.Size(601, 412);
             this.pnlHistoryListView.TabIndex = 0;
+            // 
+            // tbSumBought
+            // 
+            this.tbSumBought.Location = new System.Drawing.Point(308, 379);
+            this.tbSumBought.Name = "tbSumBought";
+            this.tbSumBought.Size = new System.Drawing.Size(240, 20);
+            this.tbSumBought.TabIndex = 2;
+            // 
+            // lblSumBought
+            // 
+            this.lblSumBought.AutoSize = true;
+            this.lblSumBought.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblSumBought.Location = new System.Drawing.Point(264, 380);
+            this.lblSumBought.Name = "lblSumBought";
+            this.lblSumBought.Size = new System.Drawing.Size(38, 16);
+            this.lblSumBought.TabIndex = 1;
+            this.lblSumBought.Text = "Total\r\n";
             // 
             // dgvListHistoryBought
             // 
@@ -384,12 +455,12 @@
             this.dgvListHistoryBought.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListHistoryBought.Location = new System.Drawing.Point(3, -5);
             this.dgvListHistoryBought.Name = "dgvListHistoryBought";
-            this.dgvListHistoryBought.Size = new System.Drawing.Size(560, 368);
+            this.dgvListHistoryBought.Size = new System.Drawing.Size(556, 368);
             this.dgvListHistoryBought.TabIndex = 0;
             // 
             // tbpDoanhThu
             // 
-            this.tbpDoanhThu.BackColor = System.Drawing.Color.OrangeRed;
+            this.tbpDoanhThu.BackColor = System.Drawing.Color.Tomato;
             this.tbpDoanhThu.Controls.Add(this.pnlRevenueTiitle);
             this.tbpDoanhThu.Controls.Add(this.pnlRevenueSetting);
             this.tbpDoanhThu.Controls.Add(this.pnlRevenueListView);
@@ -397,13 +468,13 @@
             this.tbpDoanhThu.Location = new System.Drawing.Point(4, 22);
             this.tbpDoanhThu.Name = "tbpDoanhThu";
             this.tbpDoanhThu.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpDoanhThu.Size = new System.Drawing.Size(577, 520);
+            this.tbpDoanhThu.Size = new System.Drawing.Size(565, 516);
             this.tbpDoanhThu.TabIndex = 0;
             this.tbpDoanhThu.Text = "Revenue";
             // 
             // pnlRevenueTiitle
             // 
-            this.pnlRevenueTiitle.BackColor = System.Drawing.Color.OrangeRed;
+            this.pnlRevenueTiitle.BackColor = System.Drawing.Color.Tomato;
             this.pnlRevenueTiitle.Controls.Add(this.lblRevenueTittle);
             this.pnlRevenueTiitle.Location = new System.Drawing.Point(-4, -10);
             this.pnlRevenueTiitle.Name = "pnlRevenueTiitle";
@@ -413,11 +484,11 @@
             // lblRevenueTittle
             // 
             this.lblRevenueTittle.AutoSize = true;
-            this.lblRevenueTittle.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRevenueTittle.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRevenueTittle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblRevenueTittle.Location = new System.Drawing.Point(228, 23);
             this.lblRevenueTittle.Name = "lblRevenueTittle";
-            this.lblRevenueTittle.Size = new System.Drawing.Size(112, 29);
+            this.lblRevenueTittle.Size = new System.Drawing.Size(115, 31);
             this.lblRevenueTittle.TabIndex = 0;
             this.lblRevenueTittle.Text = "Revenue";
             // 
@@ -450,13 +521,13 @@
             this.lblTotalRevenue.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblTotalRevenue.Location = new System.Drawing.Point(234, 35);
             this.lblTotalRevenue.Name = "lblTotalRevenue";
-            this.lblTotalRevenue.Size = new System.Drawing.Size(37, 16);
+            this.lblTotalRevenue.Size = new System.Drawing.Size(38, 16);
             this.lblTotalRevenue.TabIndex = 5;
             this.lblTotalRevenue.Text = "Total";
             // 
             // btnRevenueView
             // 
-            this.btnRevenueView.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnRevenueView.BackColor = System.Drawing.Color.Tomato;
             this.btnRevenueView.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnRevenueView.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnRevenueView.Location = new System.Drawing.Point(70, 31);
@@ -527,7 +598,7 @@
             this.lblListSold.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblListSold.Location = new System.Drawing.Point(210, 7);
             this.lblListSold.Name = "lblListSold";
-            this.lblListSold.Size = new System.Drawing.Size(136, 16);
+            this.lblListSold.Size = new System.Drawing.Size(133, 16);
             this.lblListSold.TabIndex = 0;
             this.lblListSold.Text = "List of sold products";
             // 
@@ -539,85 +610,15 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(585, 546);
+            this.tabControl1.Size = new System.Drawing.Size(573, 542);
             this.tabControl1.TabIndex = 0;
-            // 
-            // lblSumBought
-            // 
-            this.lblSumBought.AutoSize = true;
-            this.lblSumBought.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblSumBought.Location = new System.Drawing.Point(269, 384);
-            this.lblSumBought.Name = "lblSumBought";
-            this.lblSumBought.Size = new System.Drawing.Size(37, 16);
-            this.lblSumBought.TabIndex = 1;
-            this.lblSumBought.Text = "Total\r\n";
-            // 
-            // tbSumBought
-            // 
-            this.tbSumBought.Location = new System.Drawing.Point(322, 383);
-            this.tbSumBought.Name = "tbSumBought";
-            this.tbSumBought.Size = new System.Drawing.Size(240, 20);
-            this.tbSumBought.TabIndex = 2;
-            // 
-            // lblSex
-            // 
-            this.lblSex.AutoSize = true;
-            this.lblSex.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblSex.Location = new System.Drawing.Point(143, 196);
-            this.lblSex.Name = "lblSex";
-            this.lblSex.Size = new System.Drawing.Size(33, 17);
-            this.lblSex.TabIndex = 10;
-            this.lblSex.Text = "Sex";
-            // 
-            // rbMale
-            // 
-            this.rbMale.AutoSize = true;
-            this.rbMale.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.rbMale.Location = new System.Drawing.Point(182, 196);
-            this.rbMale.Name = "rbMale";
-            this.rbMale.Size = new System.Drawing.Size(56, 21);
-            this.rbMale.TabIndex = 11;
-            this.rbMale.TabStop = true;
-            this.rbMale.Text = "Male";
-            this.rbMale.UseVisualStyleBackColor = true;
-            // 
-            // rbFemale
-            // 
-            this.rbFemale.AutoSize = true;
-            this.rbFemale.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.rbFemale.Location = new System.Drawing.Point(264, 196);
-            this.rbFemale.Name = "rbFemale";
-            this.rbFemale.Size = new System.Drawing.Size(75, 21);
-            this.rbFemale.TabIndex = 12;
-            this.rbFemale.TabStop = true;
-            this.rbFemale.Text = "Female";
-            this.rbFemale.UseVisualStyleBackColor = true;
-            // 
-            // rbDiff
-            // 
-            this.rbDiff.AutoSize = true;
-            this.rbDiff.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.rbDiff.Location = new System.Drawing.Point(367, 196);
-            this.rbDiff.Name = "rbDiff";
-            this.rbDiff.Size = new System.Drawing.Size(68, 21);
-            this.rbDiff.TabIndex = 13;
-            this.rbDiff.TabStop = true;
-            this.rbDiff.Text = "Orther";
-            this.rbDiff.UseVisualStyleBackColor = true;
-            // 
-            // dtpHistoryTo
-            // 
-            this.dtpHistoryTo.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.dtpHistoryTo.Location = new System.Drawing.Point(252, 7);
-            this.dtpHistoryTo.Name = "dtpHistoryTo";
-            this.dtpHistoryTo.Size = new System.Drawing.Size(184, 20);
-            this.dtpHistoryTo.TabIndex = 1;
             // 
             // FAccount
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(585, 544);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(588, 541);
             this.Controls.Add(this.tabControl1);
             this.Name = "FAccount";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

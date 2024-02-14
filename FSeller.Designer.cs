@@ -82,7 +82,7 @@
             // 
             // btnUpdateProduct
             // 
-            this.btnUpdateProduct.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnUpdateProduct.BackColor = System.Drawing.Color.Tomato;
             this.btnUpdateProduct.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnUpdateProduct.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnUpdateProduct.Location = new System.Drawing.Point(662, 24);
@@ -94,7 +94,7 @@
             // 
             // btnDelProduct
             // 
-            this.btnDelProduct.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnDelProduct.BackColor = System.Drawing.Color.Tomato;
             this.btnDelProduct.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnDelProduct.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnDelProduct.Location = new System.Drawing.Point(581, 23);
@@ -106,7 +106,7 @@
             // 
             // btnAddProduct
             // 
-            this.btnAddProduct.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnAddProduct.BackColor = System.Drawing.Color.Tomato;
             this.btnAddProduct.FlatAppearance.BorderColor = System.Drawing.Color.OrangeRed;
             this.btnAddProduct.FlatAppearance.BorderSize = 0;
             this.btnAddProduct.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
@@ -266,7 +266,7 @@
             // 
             // pnlProductTittle
             // 
-            this.pnlProductTittle.BackColor = System.Drawing.Color.OrangeRed;
+            this.pnlProductTittle.BackColor = System.Drawing.Color.Tomato;
             this.pnlProductTittle.Controls.Add(this.lblProductTittle);
             this.pnlProductTittle.Location = new System.Drawing.Point(-7, -2);
             this.pnlProductTittle.Name = "pnlProductTittle";
@@ -288,7 +288,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.OrangeRed;
+            this.BackColor = System.Drawing.Color.Tomato;
             this.ClientSize = new System.Drawing.Size(773, 655);
             this.Controls.Add(this.pnlProductTittle);
             this.Controls.Add(this.dgvProductList);

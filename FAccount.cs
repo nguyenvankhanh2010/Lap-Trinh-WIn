@@ -16,6 +16,5 @@ namespace Do_an_LTWin
         {
             InitializeComponent();
         }
-
     }
 }

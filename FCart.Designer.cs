@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.pnlCartTittle = new System.Windows.Forms.Panel();
-            this.pnlCartView = new System.Windows.Forms.Panel();
-            this.pnlCartSetting = new System.Windows.Forms.Panel();
-            this.lvCart = new System.Windows.Forms.ListView();
-            this.btnBuy = new System.Windows.Forms.Button();
-            this.btnDelProductInCart = new System.Windows.Forms.Button();
-            this.lblDiscount = new System.Windows.Forms.Label();
-            this.cbVoucher = new System.Windows.Forms.ComboBox();
-            this.chbSelectAll = new System.Windows.Forms.CheckBox();
             this.lblTittleCart = new System.Windows.Forms.Label();
+            this.pnlCartView = new System.Windows.Forms.Panel();
+            this.lvCart = new System.Windows.Forms.ListView();
+            this.pnlCartSetting = new System.Windows.Forms.Panel();
+            this.chbSelectAll = new System.Windows.Forms.CheckBox();
+            this.cbVoucher = new System.Windows.Forms.ComboBox();
+            this.btnBuy = new System.Windows.Forms.Button();
+            this.lblDiscount = new System.Windows.Forms.Label();
+            this.btnDelProductInCart = new System.Windows.Forms.Button();
             this.pnlCartTittle.SuspendLayout();
             this.pnlCartView.SuspendLayout();
             this.pnlCartSetting.SuspendLayout();
@@ -45,12 +45,24 @@
             // 
             // pnlCartTittle
             // 
-            this.pnlCartTittle.BackColor = System.Drawing.Color.OrangeRed;
+            this.pnlCartTittle.BackColor = System.Drawing.Color.Tomato;
             this.pnlCartTittle.Controls.Add(this.lblTittleCart);
             this.pnlCartTittle.Location = new System.Drawing.Point(3, 4);
             this.pnlCartTittle.Name = "pnlCartTittle";
             this.pnlCartTittle.Size = new System.Drawing.Size(795, 53);
             this.pnlCartTittle.TabIndex = 0;
+            // 
+            // lblTittleCart
+            // 
+            this.lblTittleCart.AutoSize = true;
+            this.lblTittleCart.BackColor = System.Drawing.Color.Tomato;
+            this.lblTittleCart.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTittleCart.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblTittleCart.Location = new System.Drawing.Point(360, 15);
+            this.lblTittleCart.Name = "lblTittleCart";
+            this.lblTittleCart.Size = new System.Drawing.Size(60, 29);
+            this.lblTittleCart.TabIndex = 0;
+            this.lblTittleCart.Text = "Cart";
             // 
             // pnlCartView
             // 
@@ -59,6 +71,15 @@
             this.pnlCartView.Name = "pnlCartView";
             this.pnlCartView.Size = new System.Drawing.Size(786, 497);
             this.pnlCartView.TabIndex = 1;
+            // 
+            // lvCart
+            // 
+            this.lvCart.HideSelection = false;
+            this.lvCart.Location = new System.Drawing.Point(0, 3);
+            this.lvCart.Name = "lvCart";
+            this.lvCart.Size = new System.Drawing.Size(786, 494);
+            this.lvCart.TabIndex = 0;
+            this.lvCart.UseCompatibleStateImageBehavior = false;
             // 
             // pnlCartSetting
             // 
@@ -73,57 +94,6 @@
             this.pnlCartSetting.Size = new System.Drawing.Size(749, 70);
             this.pnlCartSetting.TabIndex = 2;
             // 
-            // lvCart
-            // 
-            this.lvCart.HideSelection = false;
-            this.lvCart.Location = new System.Drawing.Point(0, 3);
-            this.lvCart.Name = "lvCart";
-            this.lvCart.Size = new System.Drawing.Size(786, 494);
-            this.lvCart.TabIndex = 0;
-            this.lvCart.UseCompatibleStateImageBehavior = false;
-            // 
-            // btnBuy
-            // 
-            this.btnBuy.BackColor = System.Drawing.Color.OrangeRed;
-            this.btnBuy.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnBuy.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnBuy.Location = new System.Drawing.Point(560, 3);
-            this.btnBuy.Name = "btnBuy";
-            this.btnBuy.Size = new System.Drawing.Size(164, 64);
-            this.btnBuy.TabIndex = 0;
-            this.btnBuy.Text = "Buy";
-            this.btnBuy.UseVisualStyleBackColor = false;
-            // 
-            // btnDelProductInCart
-            // 
-            this.btnDelProductInCart.BackColor = System.Drawing.Color.OrangeRed;
-            this.btnDelProductInCart.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnDelProductInCart.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnDelProductInCart.Location = new System.Drawing.Point(390, 3);
-            this.btnDelProductInCart.Name = "btnDelProductInCart";
-            this.btnDelProductInCart.Size = new System.Drawing.Size(164, 64);
-            this.btnDelProductInCart.TabIndex = 1;
-            this.btnDelProductInCart.Text = "Delete";
-            this.btnDelProductInCart.UseVisualStyleBackColor = false;
-            // 
-            // lblDiscount
-            // 
-            this.lblDiscount.AutoSize = true;
-            this.lblDiscount.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblDiscount.Location = new System.Drawing.Point(217, 16);
-            this.lblDiscount.Name = "lblDiscount";
-            this.lblDiscount.Size = new System.Drawing.Size(105, 17);
-            this.lblDiscount.TabIndex = 2;
-            this.lblDiscount.Text = "Select voucher";
-            // 
-            // cbVoucher
-            // 
-            this.cbVoucher.FormattingEnabled = true;
-            this.cbVoucher.Location = new System.Drawing.Point(180, 36);
-            this.cbVoucher.Name = "cbVoucher";
-            this.cbVoucher.Size = new System.Drawing.Size(180, 21);
-            this.cbVoucher.TabIndex = 3;
-            // 
             // chbSelectAll
             // 
             this.chbSelectAll.AutoSize = true;
@@ -135,23 +105,53 @@
             this.chbSelectAll.Text = "Select all";
             this.chbSelectAll.UseVisualStyleBackColor = true;
             // 
-            // lblTittleCart
+            // cbVoucher
             // 
-            this.lblTittleCart.AutoSize = true;
-            this.lblTittleCart.BackColor = System.Drawing.Color.OrangeRed;
-            this.lblTittleCart.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTittleCart.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblTittleCart.Location = new System.Drawing.Point(360, 15);
-            this.lblTittleCart.Name = "lblTittleCart";
-            this.lblTittleCart.Size = new System.Drawing.Size(60, 29);
-            this.lblTittleCart.TabIndex = 0;
-            this.lblTittleCart.Text = "Cart";
+            this.cbVoucher.FormattingEnabled = true;
+            this.cbVoucher.Location = new System.Drawing.Point(180, 36);
+            this.cbVoucher.Name = "cbVoucher";
+            this.cbVoucher.Size = new System.Drawing.Size(180, 21);
+            this.cbVoucher.TabIndex = 3;
+            // 
+            // btnBuy
+            // 
+            this.btnBuy.BackColor = System.Drawing.Color.Tomato;
+            this.btnBuy.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnBuy.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnBuy.Location = new System.Drawing.Point(560, 3);
+            this.btnBuy.Name = "btnBuy";
+            this.btnBuy.Size = new System.Drawing.Size(164, 64);
+            this.btnBuy.TabIndex = 0;
+            this.btnBuy.Text = "Buy";
+            this.btnBuy.UseVisualStyleBackColor = false;
+            // 
+            // lblDiscount
+            // 
+            this.lblDiscount.AutoSize = true;
+            this.lblDiscount.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblDiscount.Location = new System.Drawing.Point(217, 16);
+            this.lblDiscount.Name = "lblDiscount";
+            this.lblDiscount.Size = new System.Drawing.Size(105, 17);
+            this.lblDiscount.TabIndex = 2;
+            this.lblDiscount.Text = "Select voucher";
+            // 
+            // btnDelProductInCart
+            // 
+            this.btnDelProductInCart.BackColor = System.Drawing.Color.Tomato;
+            this.btnDelProductInCart.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnDelProductInCart.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnDelProductInCart.Location = new System.Drawing.Point(390, 3);
+            this.btnDelProductInCart.Name = "btnDelProductInCart";
+            this.btnDelProductInCart.Size = new System.Drawing.Size(164, 64);
+            this.btnDelProductInCart.TabIndex = 1;
+            this.btnDelProductInCart.Text = "Delete";
+            this.btnDelProductInCart.UseVisualStyleBackColor = false;
             // 
             // FCart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.OrangeRed;
+            this.BackColor = System.Drawing.Color.Tomato;
             this.ClientSize = new System.Drawing.Size(801, 637);
             this.Controls.Add(this.pnlCartSetting);
             this.Controls.Add(this.pnlCartView);
