@@ -156,7 +156,7 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.BackColor = System.Drawing.Color.Coral;
+            this.btnSearch.BackColor = System.Drawing.Color.White;
             this.btnSearch.Image = global::Do_an_LTWin.Properties.Resources.buyer_search;
             this.btnSearch.Location = new System.Drawing.Point(450, 2);
             this.btnSearch.Margin = new System.Windows.Forms.Padding(2);

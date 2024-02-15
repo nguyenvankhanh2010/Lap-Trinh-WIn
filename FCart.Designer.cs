@@ -124,6 +124,7 @@
             this.btnBuy.TabIndex = 0;
             this.btnBuy.Text = "Buy";
             this.btnBuy.UseVisualStyleBackColor = false;
+            this.btnBuy.Click += new System.EventHandler(this.btnBuy_Click);
             // 
             // lblDiscount
             // 

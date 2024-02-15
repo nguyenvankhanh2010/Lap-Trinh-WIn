@@ -48,3 +48,4 @@ C:\Users\thanh\OneDrive\Desktop\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWi
 C:\Users\thanh\OneDrive\Desktop\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.csproj.CoreCompileInputs.cache
 C:\Users\thanh\OneDrive\Desktop\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.exe
 C:\Users\thanh\OneDrive\Desktop\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.pdb
+C:\Users\thanh\OneDrive\Desktop\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.FPayment.resources

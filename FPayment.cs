@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Do_an_LTWin
 {
-    public partial class FCart : Form
+    public partial class FPayment : Form
     {
-        public FCart()
+        public FPayment()
         {
             InitializeComponent();
-        }
-
-        private void btnBuy_Click(object sender, EventArgs e)
-        {
-            FPayment fPayment = new FPayment();
-            fPayment.ShowDialog();
         }
     }
 }
