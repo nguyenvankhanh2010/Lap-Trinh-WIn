@@ -76,6 +76,12 @@
     <Compile Include="FPayment.Designer.cs">
       <DependentUpon>FPayment.cs</DependentUpon>
     </Compile>
+    <Compile Include="FSeller-Layout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSeller-Layout.Designer.cs">
+      <DependentUpon>FSeller-Layout.cs</DependentUpon>
+    </Compile>
     <Compile Include="FSeller.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControlCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlCategory.Designer.cs">
+      <DependentUpon>UserControlCategory.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FAccount.resx">
       <DependentUpon>FAccount.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,6 +111,9 @@
     <EmbeddedResource Include="FPayment.resx">
       <DependentUpon>FPayment.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FSeller-Layout.resx">
+      <DependentUpon>FSeller-Layout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FSeller.resx">
       <DependentUpon>FSeller.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,6 +127,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserControlCategory.resx">
+      <DependentUpon>UserControlCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -181,6 +199,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\buyer-product-piano1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seller-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seller-dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seller-dashboard %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seller-category-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seller-category-logoo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

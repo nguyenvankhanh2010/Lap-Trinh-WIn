@@ -403,6 +403,56 @@ namespace Do_an_LTWin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap seller_category_logo {
+            get {
+                object obj = ResourceManager.GetObject("seller-category-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seller_category_logoo {
+            get {
+                object obj = ResourceManager.GetObject("seller-category-logoo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seller_dashboard {
+            get {
+                object obj = ResourceManager.GetObject("seller-dashboard", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seller_dashboard__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("seller-dashboard (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seller_logo {
+            get {
+                object obj = ResourceManager.GetObject("seller-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap supermarket_female_cashier_working_checkout_260nw_1924425839_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("supermarket-female-cashier-working-checkout-260nw-1924425839-removebg-preview", resourceCulture);

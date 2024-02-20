@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Do_an_LTWin
 {
-    public partial class FSeller : Form
+    public partial class UserControlCategory : UserControl
     {
-        public FSeller()
+        public UserControlCategory()
         {
             InitializeComponent();
-        }
-
-        private void btnAddProduct_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

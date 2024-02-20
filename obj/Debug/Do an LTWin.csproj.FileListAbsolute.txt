@@ -49,3 +49,20 @@ C:\Users\thanh\OneDrive\Desktop\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWi
 C:\Users\thanh\OneDrive\Desktop\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.exe
 C:\Users\thanh\OneDrive\Desktop\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.pdb
 C:\Users\thanh\OneDrive\Desktop\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.FPayment.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\bin\Debug\Do an LTWin.exe.config
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\bin\Debug\Do an LTWin.exe
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\bin\Debug\Do an LTWin.pdb
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.csproj.AssemblyReference.cache
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.FAccount.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.FCart.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.FLogin.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.FHome.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.FPayment.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.FSeller_Layout.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.FSeller.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.Properties.Resources.resources
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.csproj.GenerateResource.cache
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.exe
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do an LTWin.pdb
+C:\Users\NGUYEN VAN KHANH\source\repos\Lap-Trinh-WIn\DoAnLapTrinhWin\Do an LTWin\obj\Debug\Do_an_LTWin.UserControlCategory.resources

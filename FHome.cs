@@ -28,7 +28,7 @@ namespace Do_an_LTWin
 
         private void btnSellerPage_Click(object sender, EventArgs e)
         {
-            FSeller fSeller = new FSeller();
+            FSeller_Layout fSeller = new FSeller_Layout();
             this.Hide();
             fSeller.ShowDialog();
             this.Show();
@@ -50,5 +50,6 @@ namespace Do_an_LTWin
             this.Show();
 
         }
+
     }
 }

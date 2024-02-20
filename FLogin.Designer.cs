@@ -57,10 +57,10 @@
             this.pnlLogin.Controls.Add(this.pbPassword);
             this.pnlLogin.Controls.Add(this.cbShowPassword);
             this.pnlLogin.Controls.Add(this.tbIDLogin);
-            this.pnlLogin.Location = new System.Drawing.Point(29, 11);
-            this.pnlLogin.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlLogin.Location = new System.Drawing.Point(40, 41);
+            this.pnlLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlLogin.Name = "pnlLogin";
-            this.pnlLogin.Size = new System.Drawing.Size(314, 406);
+            this.pnlLogin.Size = new System.Drawing.Size(419, 457);
             this.pnlLogin.TabIndex = 5;
             this.pnlLogin.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -68,10 +68,9 @@
             // 
             this.lblLoginTitle.AutoSize = true;
             this.lblLoginTitle.Font = new System.Drawing.Font("Bookman Old Style", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLoginTitle.Location = new System.Drawing.Point(108, 56);
-            this.lblLoginTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblLoginTitle.Location = new System.Drawing.Point(144, 69);
             this.lblLoginTitle.Name = "lblLoginTitle";
-            this.lblLoginTitle.Size = new System.Drawing.Size(92, 32);
+            this.lblLoginTitle.Size = new System.Drawing.Size(111, 40);
             this.lblLoginTitle.TabIndex = 6;
             this.lblLoginTitle.Text = "Login";
             // 
@@ -80,10 +79,10 @@
             this.btnLogin.BackColor = System.Drawing.Color.Tomato;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft YaHei", 11.8F, System.Drawing.FontStyle.Bold);
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(91, 270);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLogin.Location = new System.Drawing.Point(121, 332);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(109, 34);
+            this.btnLogin.Size = new System.Drawing.Size(145, 42);
             this.btnLogin.TabIndex = 5;
             this.btnLogin.Text = "Log in";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -92,10 +91,10 @@
             // pbUserName
             // 
             this.pbUserName.Image = global::Do_an_LTWin.Properties.Resources.login_account;
-            this.pbUserName.Location = new System.Drawing.Point(42, 126);
-            this.pbUserName.Margin = new System.Windows.Forms.Padding(2);
+            this.pbUserName.Location = new System.Drawing.Point(56, 155);
+            this.pbUserName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbUserName.Name = "pbUserName";
-            this.pbUserName.Size = new System.Drawing.Size(35, 23);
+            this.pbUserName.Size = new System.Drawing.Size(47, 28);
             this.pbUserName.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbUserName.TabIndex = 4;
             this.pbUserName.TabStop = false;
@@ -103,20 +102,20 @@
             // tbPassword
             // 
             this.tbPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.tbPassword.Location = new System.Drawing.Point(74, 192);
-            this.tbPassword.Margin = new System.Windows.Forms.Padding(2);
+            this.tbPassword.Location = new System.Drawing.Point(99, 236);
+            this.tbPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(191, 24);
+            this.tbPassword.Size = new System.Drawing.Size(253, 28);
             this.tbPassword.TabIndex = 1;
             this.tbPassword.UseSystemPasswordChar = true;
             // 
             // pbPassword
             // 
             this.pbPassword.Image = global::Do_an_LTWin.Properties.Resources.login_lock;
-            this.pbPassword.Location = new System.Drawing.Point(40, 188);
-            this.pbPassword.Margin = new System.Windows.Forms.Padding(2);
+            this.pbPassword.Location = new System.Drawing.Point(53, 231);
+            this.pbPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbPassword.Name = "pbPassword";
-            this.pbPassword.Size = new System.Drawing.Size(35, 27);
+            this.pbPassword.Size = new System.Drawing.Size(47, 33);
             this.pbPassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbPassword.TabIndex = 3;
             this.pbPassword.TabStop = false;
@@ -125,10 +124,10 @@
             // 
             this.cbShowPassword.AutoSize = true;
             this.cbShowPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbShowPassword.Location = new System.Drawing.Point(170, 231);
-            this.cbShowPassword.Margin = new System.Windows.Forms.Padding(2);
+            this.cbShowPassword.Location = new System.Drawing.Point(227, 284);
+            this.cbShowPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbShowPassword.Name = "cbShowPassword";
-            this.cbShowPassword.Size = new System.Drawing.Size(115, 17);
+            this.cbShowPassword.Size = new System.Drawing.Size(138, 20);
             this.cbShowPassword.TabIndex = 2;
             this.cbShowPassword.Text = "Show Password";
             this.cbShowPassword.UseVisualStyleBackColor = true;
@@ -137,10 +136,10 @@
             // tbIDLogin
             // 
             this.tbIDLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.tbIDLogin.Location = new System.Drawing.Point(74, 126);
-            this.tbIDLogin.Margin = new System.Windows.Forms.Padding(2);
+            this.tbIDLogin.Location = new System.Drawing.Point(99, 155);
+            this.tbIDLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbIDLogin.Name = "tbIDLogin";
-            this.tbIDLogin.Size = new System.Drawing.Size(191, 24);
+            this.tbIDLogin.Size = new System.Drawing.Size(253, 28);
             this.tbIDLogin.TabIndex = 0;
             this.tbIDLogin.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -148,10 +147,9 @@
             // 
             this.lblShoppingTitle.AutoSize = true;
             this.lblShoppingTitle.Font = new System.Drawing.Font("Lucida Fax", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblShoppingTitle.Location = new System.Drawing.Point(469, 50);
-            this.lblShoppingTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblShoppingTitle.Location = new System.Drawing.Point(625, 62);
             this.lblShoppingTitle.Name = "lblShoppingTitle";
-            this.lblShoppingTitle.Size = new System.Drawing.Size(130, 25);
+            this.lblShoppingTitle.Size = new System.Drawing.Size(165, 32);
             this.lblShoppingTitle.TabIndex = 7;
             this.lblShoppingTitle.Text = "SHOPPING";
             this.lblShoppingTitle.Click += new System.EventHandler(this.label2_Click);
@@ -160,20 +158,19 @@
             // 
             this.lblSystemManagementTitle.AutoSize = true;
             this.lblSystemManagementTitle.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemManagementTitle.Location = new System.Drawing.Point(447, 82);
-            this.lblSystemManagementTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblSystemManagementTitle.Location = new System.Drawing.Point(596, 101);
             this.lblSystemManagementTitle.Name = "lblSystemManagementTitle";
-            this.lblSystemManagementTitle.Size = new System.Drawing.Size(179, 19);
+            this.lblSystemManagementTitle.Size = new System.Drawing.Size(222, 24);
             this.lblSystemManagementTitle.TabIndex = 8;
             this.lblSystemManagementTitle.Text = "System Management";
             // 
             // pbShadowBackground
             // 
             this.pbShadowBackground.Image = global::Do_an_LTWin.Properties.Resources.login_Shadow;
-            this.pbShadowBackground.Location = new System.Drawing.Point(62, 67);
-            this.pbShadowBackground.Margin = new System.Windows.Forms.Padding(2);
+            this.pbShadowBackground.Location = new System.Drawing.Point(80, 58);
+            this.pbShadowBackground.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbShadowBackground.Name = "pbShadowBackground";
-            this.pbShadowBackground.Size = new System.Drawing.Size(323, 393);
+            this.pbShadowBackground.Size = new System.Drawing.Size(431, 484);
             this.pbShadowBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbShadowBackground.TabIndex = 4;
             this.pbShadowBackground.TabStop = false;
@@ -182,26 +179,26 @@
             // pbBackground
             // 
             this.pbBackground.Image = global::Do_an_LTWin.Properties.Resources.supermarket_female_cashier_working_checkout_260nw_1924425839_removebg_preview;
-            this.pbBackground.Location = new System.Drawing.Point(277, 103);
-            this.pbBackground.Margin = new System.Windows.Forms.Padding(2);
+            this.pbBackground.Location = new System.Drawing.Point(369, 127);
+            this.pbBackground.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbBackground.Name = "pbBackground";
-            this.pbBackground.Size = new System.Drawing.Size(454, 381);
+            this.pbBackground.Size = new System.Drawing.Size(605, 469);
             this.pbBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbBackground.TabIndex = 0;
             this.pbBackground.TabStop = false;
             // 
             // FLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tomato;
-            this.ClientSize = new System.Drawing.Size(729, 432);
+            this.ClientSize = new System.Drawing.Size(972, 532);
             this.Controls.Add(this.lblSystemManagementTitle);
             this.Controls.Add(this.lblShoppingTitle);
             this.Controls.Add(this.pnlLogin);
             this.Controls.Add(this.pbShadowBackground);
             this.Controls.Add(this.pbBackground);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";
